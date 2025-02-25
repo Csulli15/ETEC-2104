@@ -64,3 +64,29 @@ div.button {
 .post:nth-child(odd) {
     background: rgb(0, 162, 255);
 }
+
+.alert {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #ffcccc;
+    text-align: center;
+    width: 100%;
+    padding: 1em;
+    box-shadow: 0em 1em 1em rgba(0,0,0,0.5);
+    border-top: 2px solid rgb(168, 9, 9);
+    border-bottom: 2px solid red;
+}
+
+.welcome {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #ccffcc;
+    text-align: center;
+    width: 100%;
+    padding: 1em;
+    box-shadow: 0em 1em 1em rgba(0,0,0,0.5);
+    border-top: 2px solid rgb(9, 168, 9);
+    border-bottom: 2px solid green;
+}
